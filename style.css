@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
-.division{
+/* .division{
+    border:  2px dotted green;
+    /*  color: orange;
+    background-color: rgba(0, 0, 255);
+    margin: 2px 1px;
+    padding: 2px 1px; 
+} */
+
+
+
+.box{
+    margin-left: 30px;
+    /* background-color: red; */
+    /* border: 2px solid green; */
+    /* width: auto;
+    height: 10vh; */
+    /* display: inline-block; */
+}
+
+.oderlist{
+    background-color: red; 
     border: 2px solid green;
+    list-style: none;
+    display: inline-block;
 }
