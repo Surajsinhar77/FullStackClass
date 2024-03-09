@@ -10,29 +10,38 @@
             border-bottom: 2px solid green;
             display: flex;
             /* flex-direction: row; */
-            /* justify-content: ; */
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;
         }
 
         .child{
             width: 100px;
             height: 100px;
-            font-size: larger;
+            font-size: 20px;
             background-color: orange;
             margin-bottom: 3px;
             margin-right: 3px;
             border: 1px solid red;
-
+            /* text-align: center; */
+            /* display: flex; */
+            justify-content: center;
+            /* align-items: center; */
         }
+        .child span{
+            border: 2px solid green;
+        }
+    
     </style>
 </head>
 <body>
     
 
     <div class="parent">
-        <div class="child">1</div>
-        <div class="child">2</div>
-        <div class="child">3</div>
-        <div class="child">4</div>
+        <div class="child"> <span>1</span> </div>
+        <div class="child"><span>2</span></div>
+        <div class="child"><span>3</span></div>
+        <div class="child"><span>4</span></div>
     </div>
 
 
