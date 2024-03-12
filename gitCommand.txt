@@ -1,0 +1,6 @@
+
+
+git init  // to initialization repository
+git add .  // to add all file to stage
+git commit -m "put any messsage" // to commit yours change
+git push // to push yours code to github so somewhere in the server
