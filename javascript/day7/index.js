@@ -67,10 +67,12 @@
 
 // Array 
 
-let array = [1, 4, 8 , 9, 8, 0.6];
+// let array = [1, 4, 8 , 9, 8, 0.6];
 
-let result = 0;
-for(let i =0; i<array.length; i++){
-    result = result+array[i];
-}
-console.log(result);
+// let result = 0;
+// for(let i =0; i<array.length; i++){
+//     result = result+array[i];
+// }
+// console.log(result);
+
+// let a = 7
