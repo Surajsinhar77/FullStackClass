@@ -77,3 +77,5 @@
 
 // let a = 7
 
+let a = "name";
+
