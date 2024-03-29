@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    height: 50px;
+    align-items: center;
+}
+
+.lists{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.lists li a {
+    text-decoration: none;
+}
+
+.auth button{
+    padding: 3px 5px;
+}
+
+
+.mainContainer{
+    border: 3px solid blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    gap: 15px;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    align-items: center;
+}
+
+.profile{
+
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+}
+
+.itemInfo{
+
+}
+
+.itemInfo span{
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 10px;
+}
+
