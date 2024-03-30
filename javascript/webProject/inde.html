@@ -66,7 +66,7 @@
                 </div>
                 <div class="itemInfo">
                     <span>
-                        <h4>Name : somename</h4>
+                        <h4 id="nameof">Name : somename</h4>
                         <h4>class : somename</h4>
                         <h4>UID : somename</h4>
                         <h4>email : somename</h4>
@@ -83,6 +83,19 @@
         </footer>
     </div>
 
+    <script>
+        let nameof = document.getElementById("nameof");
+    
+        fetch("https://dummyjson.com/products")
+        .then((res)=>{
+            res.json().then((result) =>{
+                console.log(result)
+            }).catch((err)=>{
+                    console.log(err);
+            })
+        })
+
+    </script>
 
 </body>
 </html>
