@@ -75,3 +75,31 @@
     gap: 10px;
 }
 
+.tumbnail{
+    width: 400px;
+    height: 200px;
+}
+
+.tubmnailImage{
+    width: 25%;
+    height: 200px;
+}
+.projectCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(138, 137, 137, 0.658);
+}
+
+.projuctinfo{
+    width: 50%;
+}
+
+.btn{
+    width: 25%;
+}
+
+.infoItem{
+    display: flex;
+    gap: 5px;
+}

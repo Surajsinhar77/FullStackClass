@@ -34,9 +34,6 @@ console.log(obj);
 
 
 
-
-
-
 // console.log(obj.nam, obj.class, obj.uid,  obj.rollNo);
 
 // let aray = []
